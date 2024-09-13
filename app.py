@@ -5,28 +5,21 @@ import pickle
 # Define the career function
 def career(pred): 
     careers = [
-       'BBA- Bachelor of Business Administration',
-       'BEM- Bachelor of Event Management',
-       'Integrated Law Course- BA + LL.B',
-       'BJMC- Bachelor of Journalism and Mass Communication',
-       'BFD- Bachelor of Fashion Designing',
-       'BBS- Bachelor of Business Studies',
-       'BTTM- Bachelor of Travel and Tourism Management',
-       'BVA- Bachelor of Visual Arts', 'BA in History',
-       'B.Arch- Bachelor of Architecture',
-       'BCA- Bachelor of Computer Applications',
-       'B.Sc.- Information Technology', 'B.Sc- Nursing',
-       'BPharma- Bachelor of Pharmacy', 'BDS- Bachelor of Dental Surgery',
-       'Animation, Graphics and Multimedia', 'B.Sc- Applied Geology',
-       'B.Sc.- Physics', 'B.Sc. Chemistry', 'B.Sc. Mathematics',
-       'B.Tech.-Civil Engineering',
-       'B.Tech.-Computer Science and Engineering',
-       'B.Tech.-Electronics and Communication Engineering',
-       'B.Tech.-Electrical and Electronics Engineering',
-       'B.Tech.-Mechanical Engineering', 'B.Com- Bachelor of Commerce',
-       'BA in Economics', 'CA- Chartered Accountancy',
-       'CS- Company Secretary', 'Diploma in Dramatic Arts', 'MBBS',
-       'Civil Services', 'BA in English', 'BA in Hindi', 'B.Ed.'
+       'Bachelor of Fine Arts (BFA) - بكالوريوس الفنون الجميلة',  # Related to drawing
+       'Bachelor of Music (BMus) - بكالوريوس الموسيقى',  # Related to singing
+       'Bachelor of Physical Education (BPEd) - بكالوريوس التربية البدنية',  # Related to sports
+       'Bachelor of Game Design - بكالوريوس تصميم الألعاب',  # Related to video games
+       'Bachelor of Performing Arts (BPA) - بكالوريوس الفنون المسرحية',  # Related to acting
+       'Bachelor of Tourism and Travel Management (BTTM) - بكالوريوس إدارة السياحة والسفر',  # Related to traveling
+       'Bachelor of Horticulture - بكالوريوس البستنة',  # Related to gardening
+       'Bachelor of Veterinary Science (BVSc) - بكالوريوس العلوم البيطرية',  # Related to animals
+       'Bachelor of Photography - بكالوريوس التصوير الفوتوغرافي',  # Related to photography
+       'Bachelor of Education (BEd) - بكالوريوس التربية',  # Related to teaching
+       'Bachelor of Computer Science (BSc) - بكالوريوس علوم الحاسب',  # Related to coding
+       'Bachelor of Electrical Engineering (BEE) - بكالوريوس الهندسة الكهربائية',  # Related to electricity
+       'Bachelor of Mechanical Engineering (BME) - بكالوريوس الهندسة الميكانيكية',  # Related to mechanic parts
+       'Bachelor of Computer Engineering (BCE) - بكالوريوس هندسة الحاسبات',  # Related to computer parts
+       'Bachelor of Science in Research (BSc) - بكالوريوس العلوم في البحث العلمي'  # Related to researching
     ]
     # Ensure the prediction index is within range
     if pred[0] >= len(careers) or pred[0] < 0:
